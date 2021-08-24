@@ -1,0 +1,809 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@200&display=swap");
+.header {
+  height: 200px;
+  background-image: url("../fotos/fotofooter.png");
+  background-size: cover;
+}
+
+/* boostrap */
+.navbar {
+  background-size: cover;
+  height: 200px;
+  padding-top: 160px;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 47%;
+  top: 15px;
+  margin-bottom: 10px;
+}
+
+.navbar-nav {
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  transform: none;
+}
+
+.nav-item {
+  list-style: none;
+  font-size: 1.5rem;
+  word-spacing: 30px;
+  color: black;
+}
+
+.menuB {
+  color: black;
+}
+
+/* boostrap */
+/* 'Poppins', sans-serif;
+'Open Sans', sans-serif; */
+/* font-family: 'Georama', sans-serif; */
+/* Header*/
+.menuTop {
+  list-style: none;
+  font-size: 1.5rem;
+  word-spacing: 30px;
+  padding-top: 170px;
+  padding-bottom: 20px;
+  text-decoration-color: #e05454;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  transform: scale(1.5);
+  transform-origin: left;
+}
+
+a:visited {
+  color: black;
+}
+
+.menu {
+  width: 800px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5px;
+}
+
+.logo {
+  position: absolute;
+  left: 47%;
+  top: 15px;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.redesTop {
+  list-style: none;
+  position: fixed;
+  top: 0;
+  right: 5px;
+  padding-top: 8px;
+}
+
+.redes {
+  width: 35px;
+  height: 35px;
+}
+
+.redes:hover {
+  transform: scale(1.5);
+  transform-origin: right;
+}
+
+.redesTl {
+  padding: 5px;
+}
+
+/*Sections*/
+hr {
+  border-top: 1px solid #070318;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.quienesSomos {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #222121;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 35px;
+  color: #3d3a3a;
+}
+
+h3 {
+  color: #3b3b3d;
+  font-size: 28px;
+  text-align: center;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+/*Seccion Conocenos*/
+.conocenos div div div p {
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  color: #0c0b0b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Media Query */
+@media (max-width: 425px) {
+  .nav-item {
+    font-weight: bolder;
+    height: 40px;
+    width: 60px;
+    font-size: 1rem;
+  }
+
+  .logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  .h2 {
+    font-size: 15px;
+  }
+
+  .fotoFlia {
+    height: 30%;
+    width: 50%;
+  }
+
+  .telasP {
+    font-size: 5px;
+  }
+
+  .whatsApp {
+    position: fixed;
+    bottom: 10px;
+    left: 95%;
+    height: 25px;
+    width: 25px;
+  }
+
+  .fotoTienda {
+    transition: none;
+  }
+
+  .fotoTienda:hover {
+    transform: none;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .quienesTexto {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  .fotoFlia {
+    height: 55%;
+    width: 75%;
+  }
+
+  .fotoCategoria {
+    height: 80px;
+    width: 80px;
+  }
+
+  .fotoTela {
+    height: 120px;
+    width: 120px;
+  }
+
+  .telasP {
+    font-size: 10px;
+  }
+
+  .whatsApp {
+    position: fixed;
+    bottom: 10px;
+    left: 95%;
+    height: 50px;
+    width: 50px;
+  }
+
+  .fotoTienda {
+    transition: none;
+  }
+
+  .fotoTienda:hover {
+    transform: none;
+  }
+}
+.conocenos {
+  margin-bottom: 40px;
+}
+.conocenos div div div img {
+  height: 80%;
+  width: 100%;
+}
+.conocenos div div div p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-left: 30px;
+  text-align: justify;
+}
+@media (max-width: 425px) {
+  .conocenos div div div p {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .conocenos div div div p {
+    font-size: 30px;
+  }
+}
+
+/*Seccion Categorias*/
+.categorias div {
+  text-align: center;
+}
+.categorias div a img {
+  height: 250px;
+  width: 250px;
+  padding: 20px;
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*Seccion Telas*/
+.conocenos div div div p {
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  color: #0c0b0b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Media Query */
+@media (max-width: 425px) {
+  .nav-item {
+    font-weight: bolder;
+    height: 40px;
+    width: 60px;
+    font-size: 1rem;
+  }
+
+  .logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  .h2 {
+    font-size: 15px;
+  }
+
+  .fotoFlia {
+    height: 30%;
+    width: 50%;
+  }
+
+  .telasP {
+    font-size: 5px;
+  }
+
+  .whatsApp {
+    position: fixed;
+    bottom: 10px;
+    left: 95%;
+    height: 25px;
+    width: 25px;
+  }
+
+  .fotoTienda {
+    transition: none;
+  }
+
+  .fotoTienda:hover {
+    transform: none;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .quienesTexto {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  .fotoFlia {
+    height: 55%;
+    width: 75%;
+  }
+
+  .fotoCategoria {
+    height: 80px;
+    width: 80px;
+  }
+
+  .fotoTela {
+    height: 120px;
+    width: 120px;
+  }
+
+  .telasP {
+    font-size: 10px;
+  }
+
+  .whatsApp {
+    position: fixed;
+    bottom: 10px;
+    left: 95%;
+    height: 50px;
+    width: 50px;
+  }
+
+  .fotoTienda {
+    transition: none;
+  }
+
+  .fotoTienda:hover {
+    transform: none;
+  }
+}
+.fotoTela {
+  height: 250px;
+  width: 250px;
+}
+
+.fontStyle {
+  letter-spacing: 1px;
+  color: #0c0b0b;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.containerTela {
+  width: 90%;
+}
+
+.cardTelas {
+  border: none;
+}
+
+/*Contacto*/
+.contacto {
+  width: 70%;
+  margin-left: 20%;
+  height: 650px;
+}
+
+/*Footer*/
+.footer {
+  margin-top: 10px;
+  background-image: url("../fotos/fotofooter.png");
+  background-size: cover;
+  height: 85px;
+}
+.footer ul {
+  list-style: none;
+  text-align: center;
+}
+.footer ul li {
+  display: inline-block;
+  padding-top: 10px;
+}
+.footer ul li img {
+  position: relative;
+  top: 1px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+.footer p {
+  bottom: 2px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+}
+.footer a img {
+  position: fixed;
+  bottom: 10px;
+  left: 95%;
+  height: 60px;
+  width: 60px;
+}
+
+.header {
+  height: 200px;
+  background-image: url("../fotos/fotofooter.png");
+  background-size: cover;
+}
+
+/* boostrap */
+.navbar {
+  background-size: cover;
+  height: 200px;
+  padding-top: 160px;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 47%;
+  top: 15px;
+  margin-bottom: 10px;
+}
+
+.navbar-nav {
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  transform: none;
+}
+
+.nav-item {
+  list-style: none;
+  font-size: 1.5rem;
+  word-spacing: 30px;
+  color: black;
+}
+
+.menuB {
+  color: black;
+}
+
+/* boostrap */
+/* 'Poppins', sans-serif;
+'Open Sans', sans-serif; */
+/* font-family: 'Georama', sans-serif; */
+/* Header*/
+.menuTop {
+  list-style: none;
+  font-size: 1.5rem;
+  word-spacing: 30px;
+  padding-top: 170px;
+  padding-bottom: 20px;
+  text-decoration-color: #e05454;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  transform: scale(1.5);
+  transform-origin: left;
+}
+
+a:visited {
+  color: black;
+}
+
+.menu {
+  width: 800px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5px;
+}
+
+.logo {
+  position: absolute;
+  left: 47%;
+  top: 15px;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.redesTop {
+  list-style: none;
+  position: fixed;
+  top: 0;
+  right: 5px;
+  padding-top: 8px;
+}
+
+.redes {
+  width: 35px;
+  height: 35px;
+}
+
+.redes:hover {
+  transform: scale(1.5);
+  transform-origin: right;
+}
+
+.redesTl {
+  padding: 5px;
+}
+
+/*Armado de tienda*/
+.bodyTienda {
+  background-color: #f7f6ec;
+}
+
+.bienvenida {
+  padding-top: 40px;
+  justify-content: center;
+  text-align: center;
+  font-family: "Georama", sans-serif;
+  font-size: 1.8rem;
+}
+
+.fotoTienda {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  transition: height 2s, width 2s;
+}
+
+.fotoTienda:hover {
+  transform: scale(1.3);
+}
+
+.header {
+  height: 200px;
+  background-image: url("../fotos/fotofooter.png");
+  background-size: cover;
+}
+
+/* boostrap */
+.navbar {
+  background-size: cover;
+  height: 200px;
+  padding-top: 160px;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 47%;
+  top: 15px;
+  margin-bottom: 10px;
+}
+
+.navbar-nav {
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  transform: none;
+}
+
+.nav-item {
+  list-style: none;
+  font-size: 1.5rem;
+  word-spacing: 30px;
+  color: black;
+}
+
+.menuB {
+  color: black;
+}
+
+/* boostrap */
+/* 'Poppins', sans-serif;
+'Open Sans', sans-serif; */
+/* font-family: 'Georama', sans-serif; */
+/* Header*/
+.menuTop {
+  list-style: none;
+  font-size: 1.5rem;
+  word-spacing: 30px;
+  padding-top: 170px;
+  padding-bottom: 20px;
+  text-decoration-color: #e05454;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  transform: scale(1.5);
+  transform-origin: left;
+}
+
+a:visited {
+  color: black;
+}
+
+.menu {
+  width: 800px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5px;
+}
+
+.logo {
+  position: absolute;
+  left: 47%;
+  top: 15px;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.redesTop {
+  list-style: none;
+  position: fixed;
+  top: 0;
+  right: 5px;
+  padding-top: 8px;
+}
+
+.redes {
+  width: 35px;
+  height: 35px;
+}
+
+.redes:hover {
+  transform: scale(1.5);
+  transform-origin: right;
+}
+
+.redesTl {
+  padding: 5px;
+}
+
+/*Armado de tienda*/
+.bodyTienda {
+  background-color: #f7f6ec;
+}
+
+.bienvenida {
+  padding-top: 40px;
+  justify-content: center;
+  text-align: center;
+  font-family: "Georama", sans-serif;
+  font-size: 1.8rem;
+}
+
+.fotoTienda {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  transition: height 2s, width 2s;
+}
+
+.fotoTienda:hover {
+  transform: scale(1.3);
+}
+
+/* Media Query */
+@media (max-width: 425px) {
+  .nav-item {
+    font-weight: bolder;
+    height: 40px;
+    width: 60px;
+    font-size: 1rem;
+  }
+
+  .logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  .h2 {
+    font-size: 15px;
+  }
+
+  .fotoFlia {
+    height: 30%;
+    width: 50%;
+  }
+
+  .telasP {
+    font-size: 5px;
+  }
+
+  .whatsApp {
+    position: fixed;
+    bottom: 10px;
+    left: 95%;
+    height: 25px;
+    width: 25px;
+  }
+
+  .fotoTienda {
+    transition: none;
+  }
+
+  .fotoTienda:hover {
+    transform: none;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .quienesTexto {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  .fotoFlia {
+    height: 55%;
+    width: 75%;
+  }
+
+  .fotoCategoria {
+    height: 80px;
+    width: 80px;
+  }
+
+  .fotoTela {
+    height: 120px;
+    width: 120px;
+  }
+
+  .telasP {
+    font-size: 10px;
+  }
+
+  .whatsApp {
+    position: fixed;
+    bottom: 10px;
+    left: 95%;
+    height: 50px;
+    width: 50px;
+  }
+
+  .fotoTienda {
+    transition: none;
+  }
+
+  .fotoTienda:hover {
+    transform: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

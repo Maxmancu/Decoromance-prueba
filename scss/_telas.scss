@@ -1,0 +1,37 @@
+/*Seccion Telas*/
+@import "extends";
+@import "media";
+@import "variables";
+
+.fotoTela {
+
+    height: 250px;
+    width: 250px;
+   
+   
+ 
+    
+}
+
+
+.fontStyle {
+
+
+ 
+    letter-spacing: 1px;
+    color: rgb(12, 11, 11);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    
+
+}
+
+.containerTela {
+    width: 90%;
+}
+
+.cardTelas {
+    border: none;
+}
+

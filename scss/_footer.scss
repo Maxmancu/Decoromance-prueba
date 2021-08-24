@@ -1,0 +1,57 @@
+/*Footer*/
+
+.footer {
+    margin-top: 10px;
+    background-image: url('../fotos/fotofooter.png');
+    background-size: cover;
+    height: 85px;
+
+    ul {
+
+        list-style: none;
+        text-align: center;
+
+
+        li {
+            display: inline-block;
+            padding-top: 10px;
+
+            img {
+                position: relative;
+                top: 1px;
+                width: 40px;
+                height: 40px;
+                padding: 5px;
+               
+            }
+
+
+        }
+
+    }
+  
+
+    p {
+       
+        bottom: 2px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+      
+
+    }
+
+a {
+
+    img {
+        position: fixed;
+        bottom: 10px;
+        left: 95%;
+        height: 60px;
+        width: 60px;
+    }
+}
+
+
+
+}

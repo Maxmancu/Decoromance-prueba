@@ -1,0 +1,32 @@
+@import "header";
+
+
+/*Armado de tienda*/
+.bodyTienda {
+    background-color: #f7f6ec;
+}
+
+.bienvenida {
+    padding-top: 40px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Georama', sans-serif;
+    font-size: 1.8rem;
+
+
+}
+
+
+    .fotoTienda {
+        object-fit: cover;
+       width: 100%;
+       height: 250px;
+        transition: height 2s, width 2s;
+    
+    
+    }
+    
+
+.fotoTienda:hover {
+    transform: scale(1.3);
+}

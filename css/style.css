@@ -39,7 +39,6 @@
   list-style: none;
   font-size: 1.5rem;
   word-spacing: 30px;
-  color: black;
 }
 
 .menuB {
@@ -87,21 +86,13 @@ a:visited {
   padding-bottom: 5px;
 }
 
-.logo {
-  position: absolute;
-  left: 47%;
-  top: 15px;
-  height: 150px;
-  width: 150px;
-  margin-bottom: 10px;
-}
-
 .redesTop {
   list-style: none;
   position: fixed;
   top: 0;
   right: 5px;
   padding-top: 8px;
+  z-index: 15;
 }
 
 .redes {
@@ -164,17 +155,35 @@ p {
   .nav-item {
     font-weight: bolder;
     height: 40px;
-    width: 60px;
+    width: 200px;
     font-size: 1rem;
+    background-color: white;
+    z-index: 10;
   }
 
   .logo {
-    height: 30px;
-    width: 30px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 5px;
+    right: 33px;
   }
 
-  .h2 {
-    font-size: 15px;
+  .navbar {
+    height: 150px;
+  }
+
+  .redesTop {
+    padding-top: 0px;
+  }
+
+  h1 {
+    padding-top: 20px;
+    font-size: medium;
+  }
+
+  .header {
+    height: 160px;
   }
 
   .fotoFlia {
@@ -182,8 +191,8 @@ p {
     width: 50%;
   }
 
-  .telasP {
-    font-size: 5px;
+  .carousel {
+    width: 100vh !important;
   }
 
   .whatsApp {
@@ -192,6 +201,17 @@ p {
     left: 95%;
     height: 25px;
     width: 25px;
+  }
+
+  .textArea {
+    height: 200px;
+    width: 250px;
+    padding: 0;
+  }
+
+  .rowTienda {
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .fotoTienda {
@@ -203,22 +223,48 @@ p {
   }
 }
 @media only screen and (min-width: 425px) and (max-width: 768px) {
-  .quienesTexto {
-    font-size: 15px;
+  .header {
+    height: 150px;
+  }
+
+  .redesTop {
+    padding-top: 0;
+  }
+
+  .redes {
+    height: 30px;
+    width: 30px;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vh;
+  }
+
+  .nav-item {
+    font-weight: bolder;
+    height: 40px;
+    width: 200px;
+    font-size: 1rem;
+    background-color: white;
+    z-index: 10;
+  }
+
+  .logo {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 5px;
+    right: 33px;
+  }
+
+  h1 {
+    padding-top: 35px;
   }
 
   h2 {
-    font-size: 15px;
-  }
-
-  .fotoFlia {
-    height: 55%;
-    width: 75%;
-  }
-
-  .fotoCategoria {
-    height: 80px;
-    width: 80px;
+    font-size: 25px;
   }
 
   .fotoTela {
@@ -226,8 +272,8 @@ p {
     width: 120px;
   }
 
-  .telasP {
-    font-size: 10px;
+  .carousel {
+    width: 100vh !important;
   }
 
   .whatsApp {
@@ -236,6 +282,15 @@ p {
     left: 95%;
     height: 50px;
     width: 50px;
+  }
+
+  .textArea {
+    margin-left: 5px;
+  }
+
+  .rowTienda {
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .fotoTienda {
@@ -253,6 +308,14 @@ p {
   height: 80%;
   width: 100%;
 }
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .conocenos div div div img {
+    height: 300px;
+    width: 450px;
+    margin-left: 20%;
+    padding-bottom: 15px;
+  }
+}
 .conocenos div div div p {
   font-size: 1.1rem;
   font-weight: bold;
@@ -261,12 +324,14 @@ p {
 }
 @media (max-width: 425px) {
   .conocenos div div div p {
-    font-size: 15px;
+    font-size: 10px;
+    padding-left: 0;
+    padding-top: 5px;
   }
 }
 @media only screen and (min-width: 425px) and (max-width: 768px) {
   .conocenos div div div p {
-    font-size: 30px;
+    font-size: 18px;
   }
 }
 
@@ -281,8 +346,15 @@ p {
   display: inline-flex;
   justify-content: center;
   flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
 }
-
+@media (max-width: 425px) {
+  .categorias div a img {
+    height: 180px;
+    width: 180px;
+  }
+}
 /*Seccion Telas*/
 .conocenos div div div p {
   word-spacing: 2px;
@@ -296,17 +368,35 @@ p {
   .nav-item {
     font-weight: bolder;
     height: 40px;
-    width: 60px;
+    width: 200px;
     font-size: 1rem;
+    background-color: white;
+    z-index: 10;
   }
 
   .logo {
-    height: 30px;
-    width: 30px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 5px;
+    right: 33px;
   }
 
-  .h2 {
-    font-size: 15px;
+  .navbar {
+    height: 150px;
+  }
+
+  .redesTop {
+    padding-top: 0px;
+  }
+
+  h1 {
+    padding-top: 20px;
+    font-size: medium;
+  }
+
+  .header {
+    height: 160px;
   }
 
   .fotoFlia {
@@ -314,8 +404,8 @@ p {
     width: 50%;
   }
 
-  .telasP {
-    font-size: 5px;
+  .carousel {
+    width: 100vh !important;
   }
 
   .whatsApp {
@@ -324,6 +414,17 @@ p {
     left: 95%;
     height: 25px;
     width: 25px;
+  }
+
+  .textArea {
+    height: 200px;
+    width: 250px;
+    padding: 0;
+  }
+
+  .rowTienda {
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .fotoTienda {
@@ -335,22 +436,48 @@ p {
   }
 }
 @media only screen and (min-width: 425px) and (max-width: 768px) {
-  .quienesTexto {
-    font-size: 15px;
+  .header {
+    height: 150px;
+  }
+
+  .redesTop {
+    padding-top: 0;
+  }
+
+  .redes {
+    height: 30px;
+    width: 30px;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vh;
+  }
+
+  .nav-item {
+    font-weight: bolder;
+    height: 40px;
+    width: 200px;
+    font-size: 1rem;
+    background-color: white;
+    z-index: 10;
+  }
+
+  .logo {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 5px;
+    right: 33px;
+  }
+
+  h1 {
+    padding-top: 35px;
   }
 
   h2 {
-    font-size: 15px;
-  }
-
-  .fotoFlia {
-    height: 55%;
-    width: 75%;
-  }
-
-  .fotoCategoria {
-    height: 80px;
-    width: 80px;
+    font-size: 25px;
   }
 
   .fotoTela {
@@ -358,8 +485,8 @@ p {
     width: 120px;
   }
 
-  .telasP {
-    font-size: 10px;
+  .carousel {
+    width: 100vh !important;
   }
 
   .whatsApp {
@@ -368,6 +495,15 @@ p {
     left: 95%;
     height: 50px;
     width: 50px;
+  }
+
+  .textArea {
+    margin-left: 5px;
+  }
+
+  .rowTienda {
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .fotoTienda {
@@ -382,6 +518,12 @@ p {
   height: 250px;
   width: 250px;
 }
+@media (max-width: 425px) {
+  .fotoTela {
+    height: 150px;
+    width: 150px;
+  }
+}
 
 .fontStyle {
   letter-spacing: 1px;
@@ -389,6 +531,11 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   font-size: 15px;
+}
+@media (max-width: 425px) {
+  .fontStyle {
+    font-size: 10px;
+  }
 }
 
 .containerTela {
@@ -403,7 +550,6 @@ p {
 .contacto {
   width: 70%;
   margin-left: 20%;
-  height: 650px;
 }
 
 /*Footer*/
@@ -416,6 +562,16 @@ p {
 .footer ul {
   list-style: none;
   text-align: center;
+}
+@media (max-width: 425px) {
+  .footer ul {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .footer ul {
+    text-align: left;
+  }
 }
 .footer ul li {
   display: inline-block;
@@ -432,7 +588,21 @@ p {
   bottom: 2px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: small;
+  font-size: 15px;
+}
+@media (max-width: 425px) {
+  .footer p {
+    font-size: 10px;
+    text-align: left;
+    margin-left: 5%;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .footer p {
+    margin-bottom: 0;
+    margin-left: 15%;
+    text-align: left;
+  }
 }
 .footer a img {
   position: fixed;
@@ -440,6 +610,24 @@ p {
   left: 95%;
   height: 60px;
   width: 60px;
+}
+@media (max-width: 425px) {
+  .footer a img {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 35px;
+    left: 85%;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .footer a img {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 35px;
+    left: 85%;
+  }
 }
 
 .header {
@@ -477,7 +665,6 @@ p {
   list-style: none;
   font-size: 1.5rem;
   word-spacing: 30px;
-  color: black;
 }
 
 .menuB {
@@ -525,21 +712,13 @@ a:visited {
   padding-bottom: 5px;
 }
 
-.logo {
-  position: absolute;
-  left: 47%;
-  top: 15px;
-  height: 150px;
-  width: 150px;
-  margin-bottom: 10px;
-}
-
 .redesTop {
   list-style: none;
   position: fixed;
   top: 0;
   right: 5px;
   padding-top: 8px;
+  z-index: 15;
 }
 
 .redes {
@@ -562,7 +741,7 @@ a:visited {
 }
 
 .bienvenida {
-  padding-top: 40px;
+  padding-top: 50px;
   justify-content: center;
   text-align: center;
   font-family: "Georama", sans-serif;
@@ -615,7 +794,6 @@ a:visited {
   list-style: none;
   font-size: 1.5rem;
   word-spacing: 30px;
-  color: black;
 }
 
 .menuB {
@@ -663,21 +841,13 @@ a:visited {
   padding-bottom: 5px;
 }
 
-.logo {
-  position: absolute;
-  left: 47%;
-  top: 15px;
-  height: 150px;
-  width: 150px;
-  margin-bottom: 10px;
-}
-
 .redesTop {
   list-style: none;
   position: fixed;
   top: 0;
   right: 5px;
   padding-top: 8px;
+  z-index: 15;
 }
 
 .redes {
@@ -700,7 +870,7 @@ a:visited {
 }
 
 .bienvenida {
-  padding-top: 40px;
+  padding-top: 50px;
   justify-content: center;
   text-align: center;
   font-family: "Georama", sans-serif;
@@ -723,17 +893,35 @@ a:visited {
   .nav-item {
     font-weight: bolder;
     height: 40px;
-    width: 60px;
+    width: 200px;
     font-size: 1rem;
+    background-color: white;
+    z-index: 10;
   }
 
   .logo {
-    height: 30px;
-    width: 30px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 5px;
+    right: 33px;
   }
 
-  .h2 {
-    font-size: 15px;
+  .navbar {
+    height: 150px;
+  }
+
+  .redesTop {
+    padding-top: 0px;
+  }
+
+  h1 {
+    padding-top: 20px;
+    font-size: medium;
+  }
+
+  .header {
+    height: 160px;
   }
 
   .fotoFlia {
@@ -741,8 +929,8 @@ a:visited {
     width: 50%;
   }
 
-  .telasP {
-    font-size: 5px;
+  .carousel {
+    width: 100vh !important;
   }
 
   .whatsApp {
@@ -751,6 +939,17 @@ a:visited {
     left: 95%;
     height: 25px;
     width: 25px;
+  }
+
+  .textArea {
+    height: 200px;
+    width: 250px;
+    padding: 0;
+  }
+
+  .rowTienda {
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .fotoTienda {
@@ -762,22 +961,48 @@ a:visited {
   }
 }
 @media only screen and (min-width: 425px) and (max-width: 768px) {
-  .quienesTexto {
-    font-size: 15px;
+  .header {
+    height: 150px;
+  }
+
+  .redesTop {
+    padding-top: 0;
+  }
+
+  .redes {
+    height: 30px;
+    width: 30px;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vh;
+  }
+
+  .nav-item {
+    font-weight: bolder;
+    height: 40px;
+    width: 200px;
+    font-size: 1rem;
+    background-color: white;
+    z-index: 10;
+  }
+
+  .logo {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 5px;
+    right: 33px;
+  }
+
+  h1 {
+    padding-top: 35px;
   }
 
   h2 {
-    font-size: 15px;
-  }
-
-  .fotoFlia {
-    height: 55%;
-    width: 75%;
-  }
-
-  .fotoCategoria {
-    height: 80px;
-    width: 80px;
+    font-size: 25px;
   }
 
   .fotoTela {
@@ -785,8 +1010,8 @@ a:visited {
     width: 120px;
   }
 
-  .telasP {
-    font-size: 10px;
+  .carousel {
+    width: 100vh !important;
   }
 
   .whatsApp {
@@ -795,6 +1020,15 @@ a:visited {
     left: 95%;
     height: 50px;
     width: 50px;
+  }
+
+  .textArea {
+    margin-left: 5px;
+  }
+
+  .rowTienda {
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .fotoTienda {

@@ -16,7 +16,18 @@
 
                     height: $alto-flia;
                     width: $ancho-flia;
+
+                    @media only screen and (min-width: 425px) and (max-width:768px) {
+                        height: 300px;
+                        width: 450px;
+                    margin-left: 20%;
+                    padding-bottom: 15px;
+                    }
+
+
+
                 }
+                
             }
 
             div {
@@ -30,11 +41,13 @@
                     @extend %font-style;
 
                     @media (max-width: 425px) {
-                        font-size: 15px;
+                        font-size: 10px;
+                        padding-left: 0;
+                        padding-top: 5px;
                     }
 
                     @media only screen and (min-width: 425px) and (max-width:768px) {
-                        font-size: 30px;
+                        font-size: 18px;
                     }
                 }
 

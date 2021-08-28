@@ -214,6 +214,10 @@ p {
     margin-left: 0;
   }
 
+  .col {
+    margin-bottom: 10px;
+  }
+
   .fotoTienda {
     transition: none;
   }
@@ -288,6 +292,10 @@ p {
     margin-left: 5px;
   }
 
+  .col {
+    margin-bottom: 10px;
+  }
+
   .rowTienda {
     margin-right: 0;
     margin-left: 0;
@@ -317,7 +325,7 @@ p {
   }
 }
 .conocenos div div div p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: bold;
   padding-left: 30px;
   text-align: justify;
@@ -427,6 +435,10 @@ p {
     margin-left: 0;
   }
 
+  .col {
+    margin-bottom: 10px;
+  }
+
   .fotoTienda {
     transition: none;
   }
@@ -499,6 +511,10 @@ p {
 
   .textArea {
     margin-left: 5px;
+  }
+
+  .col {
+    margin-bottom: 10px;
   }
 
   .rowTienda {
@@ -952,6 +968,10 @@ a:visited {
     margin-left: 0;
   }
 
+  .col {
+    margin-bottom: 10px;
+  }
+
   .fotoTienda {
     transition: none;
   }
@@ -1024,6 +1044,10 @@ a:visited {
 
   .textArea {
     margin-left: 5px;
+  }
+
+  .col {
+    margin-bottom: 10px;
   }
 
   .rowTienda {
